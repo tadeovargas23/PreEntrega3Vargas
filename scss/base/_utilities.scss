@@ -1,0 +1,5 @@
+@mixin linea($ancho, $color) {
+    width: $ancho;
+    background-color: $color;
+    height: 1px;
+  }  

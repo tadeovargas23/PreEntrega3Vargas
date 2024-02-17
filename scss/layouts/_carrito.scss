@@ -1,0 +1,45 @@
+.linea{
+    &-compra-carga{
+        @include linea(90%, $linea-desactivada)
+    }
+    &-compra-carga1{
+        @include linea(90%, $linea-activada)
+    }
+    &-resumen{
+        @include linea(84%, $linea-desactivada)
+    }
+    &-carrito{
+        @include linea(65%, $linea-desactivada)
+    }
+    &-compra{
+        padding-bottom: 200px;
+    }
+}
+
+.titulo-carrito{
+    h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    }
+}
+
+.contenedor{
+    &-carrito{
+        margin-top: 20px;
+    }
+    &-resumen, col{
+        margin-bottom: 30px;
+    }
+}
+.imagen-producto{
+    width: 20%;
+}
+
+.col-md-4{
+    p{
+        font-size: 25px;
+    }
+    .texto-carrito{
+        margin-top: 50px;
+    }
+}

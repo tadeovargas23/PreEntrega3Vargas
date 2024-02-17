@@ -1,0 +1,14 @@
+@import 'base/vars';
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/utilities';
+
+@import 'layouts/carrito';
+@import 'layouts/index';
+@import 'layouts/pago';
+@import 'layouts/producto';
+@import 'layouts/tienda';
+
+@import 'components/boton';
+@import 'components/footer';
+@import 'components/navbar';

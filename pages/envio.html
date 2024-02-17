@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envio - Toy Pega'o</title>
+  <meta name="keywords" content="Sticker, Pokémon, Vinilo, Notebook, Botellas, Coleccionistas, Decoración, Regalos">
+  <link rel="icon" href="../assets/images/icono.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="title" content="Toy Pega'o" />
+  <meta name="description" content="¡Consigue los mejores stickers en nuestra tienda Toy Pega'o para decorar tu notebook, botellas y mucho más! Envíos rápidos y seguros." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://metatags.io/" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="¡Consigue los mejores stickers en nuestra tienda Toy Pega'o para decorar tu notebook, botellas y mucho más! Envíos rápidos y seguros." />
+  <meta property="og:image" content="../assets/images/icono.ico" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://metatags.io/" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="¡Consigue los mejores stickers en nuestra tienda Toy Pega'o para decorar tu notebook, botellas y mucho más! Envíos rápidos y seguros." />
+  <meta property="twitter:image" content="../assets/images/icono.ico" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3" id="menu">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <span class="fs-5">Toy Pega'o</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#contactoo">Contacto</a>
+          </li>
+
+        </ul>
+
+        <span class="navbar-button">
+            <a href="carrito.html">
+                <button class="btn btn-primary btn-primary-outline-success" type="button">Tu carrito</button>
+            </a>
+        </span>
+  
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h1 class="titulo-envio">Envio</h1> 
+
+    <div class="linea-compra text-center">
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h2>1.Carrito de compras</h2>
+          <div class="linea-compra-carga"></div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h2 class="fw-bold">2.Detalles de envio</h2>
+          <div class="linea-compra-carga1"></div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h2>3.Metodo de pago</h2>
+          <div class="linea-compra-carga"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contenedor-envio row">
+      <div class="col-md-8">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="inputApellidos" class="form-label">Apellidos</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-12">
+            <label for="inputDireccion" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="inputAddress">
+          </div>
+          <div class="col-12">
+            <label for="inputComentarios" class="form-label">Comentarios (opcional)</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="inputProvincia" class="form-label">Provincia</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col-md-4">
+            <label for="inputCiudad" class="form-label">Ciudad</label>
+            <select id="inputCiudad" class="form-select">
+              <option selected>Seleccionar</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputCodigo" class="form-label">Codigo postal</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-12">
+            <div class="boton-siguientee mb-3">
+              <a href="pago.html">
+                <button type="button" class="btn btn-success me-4">Siguiente</button>
+              </a>
+              <a href="tienda.html">
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="resumen-compraa ms-3">
+          <h2>Resumen de la Compra</h2>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Subtotal
+              </div>
+              <div class="col">
+                200$
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Envio
+              </div>
+              <div class="col">
+                Gratis
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Impuestos
+              </div>
+              <div class="col">
+                200$
+              </div>
+            </div>
+          </div>
+          <div class="linea-resumen"></div>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Total
+              </div>
+              <div class="col">
+                400$
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <footer class="w-100">
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <h4>MENU PRINCIPAL</h4>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="../index.html#contactoo">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>SIGUENOS</h4>
+          <ul>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

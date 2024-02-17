@@ -1,0 +1,25 @@
+.boton-siguiente{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.boton-siguientee{
+    margin-top: 40px;
+}
+
+
+.btn-primary {
+    background-color: $color-primario-boton;
+    color: #ecf0f1;
+    &:hover {
+        background-color: #2980b9;
+        }
+}
+
+.btn-primary-outline-success {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    &:hover {
+        background-color: $color-secundario-boton;
+    }
+}

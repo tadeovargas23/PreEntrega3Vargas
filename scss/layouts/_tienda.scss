@@ -1,0 +1,26 @@
+.busqueda{
+    display: flex;
+    justify-content: center;
+    &-barra{
+        width: 50%;
+    }
+    &-boton-buscar{
+        margin-left: 10px;
+    }
+}
+
+.titulo-noticias{
+    margin-top: 60px;
+}
+
+.titulo-catalogo{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.zoom-image {
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

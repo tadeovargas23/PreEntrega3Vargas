@@ -1,0 +1,27 @@
+.navbar {
+    background-color: $color-primario-boton;
+    &-nav .nav-link {
+        color: black;
+        &.active {
+            color: black;
+        }
+        &:hover {
+            color: #ecf0f1;
+        }        
+    }
+    &-button button {
+        background-color: $color-primario-boton;
+        color: #ecf0f1;
+    }
+}
+
+#menu a{
+    font-size:  18px;
+    font-weight: bold;
+    
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}

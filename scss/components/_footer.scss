@@ -1,0 +1,17 @@
+footer{
+    margin-top: 60px;
+    text-decoration: none;
+    background-color: $color-primario-boton;
+    margin-bottom: -1em;
+    ul{
+        list-style: none;
+    }
+    .col,
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    &-copyright{
+        margin-left: 10px;
+    }
+}
